@@ -1,4 +1,7 @@
 from django.shortcuts import render
 
-def greeting(request):
+def home(request):
     return render(request, 'homepage.html')
+
+def about(request):
+    return render(request, 'aboutpage.html')
